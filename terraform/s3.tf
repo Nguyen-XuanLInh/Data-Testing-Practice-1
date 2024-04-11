@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "qa-community-${var.your_account}-s3"
+  bucket = "linhntx"
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
